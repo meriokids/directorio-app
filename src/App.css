@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+/* Definir variables de color y tipografía */
+@layer base {
+  :root {
+    --color-primary: #3490dc;
+    --color-secondary: #ffed4a;
+    --color-accent: #e3342f;
+    --color-background: #f9fafb;
+    --color-dark: #1a202c;
+
+    --font-sans: "Inter", sans-serif;
+    --font-serif: "Merriweather", serif;
+    --font-mono: "Fira Code", monospace;
+  }
+
+  /* Aplicar las variables a las clases de Tailwind */
+  body {
+    @apply bg-[var(--color-background)] text-[var(--color-dark)] font-[var(--font-sans)];
+  }
+}

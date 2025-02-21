@@ -1,0 +1,41 @@
+{
+  "clients": [
+    {
+      "id": "71a9",
+      "nombre": "Rodrigo",
+      "apellidos": "Flores",
+      "correo": "Mexico",
+      "empresa": "Mexico",
+      "puesto": "Jefe de todos",
+      "telefono": "559303039",
+      "foto": "133939448"
+    },
+    {
+      "id": "11e3",
+      "nombre": "Luis",
+      "apellidos": "Presz",
+      "correo": "admin@gmail.com",
+      "empresa": "Mexico",
+      "puesto": "Hola",
+      "telefono": "559385329999"
+    },
+    {
+      "id": "31de",
+      "nombre": "Mario",
+      "apellidos": "Villagomez",
+      "correo": "meriokids@gmail.com",
+      "empresa": "Sonder",
+      "puesto": "Soporte TI",
+      "telefono": "5523340594"
+    },
+    {
+      "id": "0561",
+      "nombre": "Antonio",
+      "apellidos": "Perez",
+      "correo": "39494302",
+      "empresa": "4disps",
+      "puesto": "Ninguno",
+      "telefono": "e4440330"
+    }
+  ]
+}

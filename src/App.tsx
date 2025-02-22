@@ -8,7 +8,7 @@ import "./index.css";
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/directorio-app"> {/* Aquí agregamos el basename */}
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route path="/" element={<MainLayout />}>

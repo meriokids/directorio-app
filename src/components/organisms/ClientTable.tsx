@@ -44,7 +44,7 @@ const ClientTable: React.FC = () => {
   // Eliminar cliente (desactivar)
   const handleDeactivateClient = async (id: number) => {
     try {
-      await axios.delete(`http://localhost:5001/clients/${id}`);
+      await axios.delete(`https://service-directorio-app.onrender.com/clients/${id}`);
       setClients(clients.filter((client) => client.id !== id));
     } catch (error) {
       console.error("Error al eliminar cliente:", error);
@@ -61,7 +61,7 @@ const ClientTable: React.FC = () => {
   const handleSaveEdit = async () => {
     if (editingClient) {
       try {
-        await axios.put(`http://localhost:5001/clients/${editingClient.id}`, editingClient);
+        await axios.put(`https://service-directorio-app.onrender.com/clients/${editingClient.id}`, editingClient);
         setClients(clients.map((c) => (c.id === editingClient.id ? editingClient : c)));
         setIsModalOpen(false);
       } catch (error) {

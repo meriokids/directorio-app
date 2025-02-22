@@ -44,7 +44,7 @@ export default function AddClientModal({ isOpen, onClose, onSave }: AddClientMod
   // Manejar envío del formulario
   const handleSubmit = async () => {
     try {
-      const response = await axios.post("http://localhost:5001/clients", newClient);
+      const response = await axios.post("https://service-directorio-app.onrender.com/clients", newClient);
       onSave(response.data);
       onClose();
     } catch (error) {

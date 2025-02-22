@@ -8,7 +8,7 @@ export interface Client {
     telefono: string;
   }
   
-  const API_URL = "http://localhost:5001";
+  const API_URL = "https://service-directorio-app.onrender.com";
   
   export const getClients = async (): Promise<Client[]> => {
     const response = await fetch(`${API_URL}/clients`);
